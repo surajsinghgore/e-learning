@@ -1,0 +1,2224 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+/* top header */
+.topHeader{
+width: 100%;
+z-index: 99;
+background-color: #fff;
+height: auto;
+display: flex;
+}
+
+ .topHeader .section{display: inline-block;
+ width: 15%;}
+
+
+ .topHeader .section .ham{
+display: none;
+  }
+.topHeader .logo-section{
+width: auto;
+height: auto;
+margin-left: 31%;
+padding-left: 0%;
+overflow: hidden;
+}
+.topHeader .logo-section img{
+width: auto;
+height: 60px;
+}
+
+
+.topHeader .links{
+margin-right: 4%;
+height: 60px;
+margin-left: 42%;
+justify-content: center;
+list-style: none;
+display: flex;
+}
+
+.topHeader .links li{
+font-size: 22px;
+margin-left: 12%;
+width: auto;
+line-height: 60px;
+}
+.topHeader .links li a{
+color: rgb(21, 21, 21);
+text-decoration: none;
+transition: all 0.4s;
+}
+.topHeader .links li a:hover{
+color: rgba(0, 0, 120, 0.673);
+}
+
+
+.topHeader #apply-btn{
+width: auto;
+margin-top: 10px;
+margin-left: 5%;
+padding: 0px 25px 0px 25px;
+font-size: 18px;
+border: none;
+border-radius: 3px;
+background-color: rgb(246 148 30);
+height: 40px;
+cursor: pointer;
+color: white;
+transition: all 0.5s;
+}
+.topHeader #apply-btn:hover{
+border-radius: 30px;
+background-color: rgb(85, 85, 85);
+}
+
+
+
+
+/* banner */
+.banner{
+user-select: none;
+width: 100%;
+height: 560px;
+display: flex;
+padding-top: 30px;
+background-color:rgb(249, 249, 249);
+}
+
+/* banner left sectiob */
+.banner .left-section{
+width: 50%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+.banner .left-section h1{
+color: rgb(56, 56, 56);
+font-size: 18px;
+font-family: 'Roboto Slab', serif;
+margin-top: 14%;
+margin-left: 3%;
+}
+.banner .left-section h1:before {
+    background-color: rgb(253, 5, 5);
+    content: "";
+    display: inline-block;
+    height: 4px;
+    position: relative;
+    vertical-align: middle;
+    width: 5%;
+}
+.banner .left-section h1:before {
+    right: 0.5em;
+    margin-left: 5%;
+}
+
+/* h2 */
+.banner .left-section h2{
+margin-left: 5%;
+margin-top: 3%;
+width: 60%;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+}
+.banner .left-section h2 #title{color: red;}
+.banner .left-section h3{
+margin-left: 5%;
+font-weight: 350;
+margin-top: 1%;
+width: 80%;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 20px;
+
+}
+
+
+.banner .left-section #join-btn{
+width: auto;
+margin-top: 10px;
+margin-left: 5%;
+margin-top: 3%;
+padding: 0px 25px 0px 25px;
+font-size: 18px;
+border: none;
+border-radius: 3px;
+background-color: rgb(246 148 30);
+height: 40px;
+cursor: pointer;
+color: white;
+transition: all 0.5s;
+}
+.banner .left-section #join-btn:hover{
+border-radius: 0px;
+background-color: rgb(85, 85, 85);}
+
+
+
+.banner .left-section #explore-btn{width: auto;
+margin-top: 10px;
+margin-left: 5%;
+margin-top: 3%;
+padding: 0px 25px 0px 25px;
+font-size: 18px;
+border: none;
+border-radius: 3px;
+background-color: rgb(226, 70, 62);
+height: 40px;
+cursor: pointer;
+color: white;
+transition: all 0.5s;}
+.banner .left-section #explore-btn:hover{
+border-radius: 0px;
+background-color: rgb(26, 26, 26);}
+
+/* banner right section */
+.banner .right-section{
+width: 50%;
+
+}
+.banner .right-section img{
+margin-left: 10%;
+width: 90%;
+margin-top: 5%;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+/* trust */
+.trust{
+width: 100%;
+height: 230px;
+overflow: hidden;
+
+background-color:rgb(255, 255, 255);
+list-style: none;
+
+}
+
+.trust h1{
+
+padding-top: 3%;
+padding-bottom: 1%;
+font-family: 'Titillium Web', sans-serif;
+font-size: 26px;
+color: rgb(34, 34, 34);
+text-align: center;
+}
+
+.trust li {
+width: 48px;
+margin-top: 3%;
+margin-left: 2.3%;
+margin-right: 2%;
+display: inline-block;
+}
+
+.trust li img{
+width: auto;
+height: 30px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+/* more more-details */
+.more-details{
+width: 100%;
+height: 400px;
+margin-bottom: 5%;
+background-color: #fff;
+}
+.more-details .card{
+width: 350px;
+float: left;
+margin-left: 5.5%;
+user-select: none;
+height: auto;
+
+overflow: hidden;
+}
+.more-details .card .img{width: 100%;}
+.more-details .card .img img{width: 100%;}
+.more-details .card p{
+width: 92%;
+font-size: 16px;
+padding-bottom: 2%;
+color: #5d5d5d;
+font-family: 'Signika Negative', sans-serif;
+}
+.more-details .card h1{
+font-size: 24px;
+font-weight: 500;
+margin-top: 2%;
+color: #454545;
+font-family: 'Karla', sans-serif;
+margin-bottom: 2%;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+/* courses */
+.courses{
+width: 100%;
+height: 700px;
+background-color:rgb(249, 249, 249);
+
+}
+.courses h1{
+padding-top: 5%;
+font-family: 'Titillium Web', sans-serif;
+font-size: 28px;
+padding-left: 4%;
+}
+.courses .course{
+width: 400px;
+transition: all 0.3s;
+cursor: pointer;
+user-select: none;
+margin-top: 2%;
+float: left;
+margin-left: 2%;
+height: 100px;
+display: flex;
+box-shadow: 0px 2px 11px 5px rgb(185, 185, 185);
+overflow: hidden;
+}
+.courses .course .img{
+width: 30%;
+
+}
+.courses .course .img img{
+width: 100%;
+height: 100%;
+} 
+.courses .course .detail{
+width: 70%;
+}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@200&display=swap');
+.courses .course .detail h1{font-size: 20px;
+font-family: 'IBM Plex Serif', serif;}
+
+.courses .course .detail p{font-size: 17px;
+padding-left: 5%;
+color: rgb(110, 110, 110);
+padding-top: 4%;
+font-family: 'IBM Plex Serif', serif;
+font-weight: 400;
+}
+ 
+.courses .course:hover{
+box-shadow: 0px 2px 12px 5px rgb(84, 83, 83);
+
+}
+
+/* teachers */
+.teachers{
+clear: both;
+width: 100%;
+height: auto;
+margin-bottom: 3%;
+background-color: #fff;
+}
+.teachers h1{
+margin-top: 5%;
+padding-left: 4%;
+font-size: 30px;
+font-family: 'Titillium Web', sans-serif;
+}
+.teachers h1:before,.teachers h1::after {
+    background-color: rgb(253, 5, 5);
+    content: "";
+    display: inline-block;
+    height: 4px;
+    position: relative;
+    vertical-align: middle;
+    width: 5%;
+}
+.teachers h1:before {
+    right: 0.5em;
+    margin-left: 5%;
+}
+.teachers h1:before,.teachers h1::after  {
+    right: 0.5em;
+    margin-left: 3%;
+}
+.teachers .card{
+width: 270px;
+margin-top: 3%;
+margin-left: 3%;
+height: auto;
+float: left;
+overflow: hidden;
+}
+.teachers .card .profile1 img,.teachers .card .profile2 img{
+height: 100%;}
+
+.teachers .card .profile2{
+height: 300px;
+background-color: rgb(204, 204, 204);
+text-align: center;
+}
+.teachers .card .profile1{
+background-color: #ffbde6;
+text-align: center;
+height: 300px;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+.teachers .card p{
+padding-top: 1%;
+font-size: 20px;
+font-family: 'Nanum Myeongjo', serif;
+text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+.teachers .card h2{
+text-align: center;
+padding-top: 4%;
+font-size: 25px;
+font-family: 'Roboto Condensed', sans-serif;
+}
+.teachers h4 #total{color: red;}
+.teachers h4{
+clear: both;
+width: 100%;
+padding-top: 4%;
+padding-bottom: 3%;
+font-size: 30px;
+text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+/* awards and certificates */
+.awards{
+width: 100%;
+background-color:rgb(249, 249, 249);
+height: 500px;
+display: flex;
+}
+.awards .img-section{
+width: 50%;
+margin-top: 4%;
+}
+.awards .texts{
+width: 50%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+.awards .texts h1{
+width: 55%;
+padding-top: 10%;
+font-size: 35px;
+font-family: 'Roboto Slab', serif;
+}
+.awards .texts p{
+width: 80%;
+font-size: 20px;
+font-family: 'Roboto Slab', serif;
+padding-top: 3%;
+}
+
+
+.awards .texts #explore{width: auto;
+
+margin-top: 6%;
+padding: 0px 25px 0px 25px;
+font-size: 18px;
+border: none;
+border-radius: 3px;
+background-color: rgb(226, 70, 62);
+height: 40px;
+cursor: pointer;
+color: white;
+transition: all 0.5s;}
+
+.awards .texts #explore:hover{
+border-radius: 0px;
+background-color: rgb(26, 26, 26);}
+
+
+/* footer */
+.footer{
+width: 100%;
+height: 1000px;
+background-color: #fff;
+}
+
+.footer h1{
+width: 45%;
+margin-left: 30%;
+color: rgb(21, 21, 21);
+font-size: 30px;
+padding-top: 5%;
+text-align: center;
+font-family: 'Titillium Web', sans-serif;
+
+}
+
+.footer .search{
+width: 60%;
+margin-top: 2%;
+margin-left: 15%;
+}
+.footer .search input{
+width: 60%;
+margin-left: 26%;
+outline: none;
+border: none;
+font-size: 16px;
+color: rgb(226, 76, 76);
+padding-left: 3%;
+background-color: rgb(244, 244, 244);
+border-radius: 10px;
+height: 40px;
+}
+
+/* REMOVE X BUTTON FROM SEARCH BAR */
+.footer .search input[type="search"]::-webkit-search-decoration,
+.footer .search input[type="search"]::-webkit-search-cancel-button,
+.footer .search input[type="search"]::-webkit-search-results-button,
+.footer .search input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance:none;
+}
+.footer .search button{
+width: auto;
+margin-top: 10px;
+margin-left: 1%;
+margin-top: 3%;
+padding: 0px 25px 0px 25px;
+font-size: 18px;
+border: none;
+border-radius: 3px;
+background-color: rgb(246 148 30);
+height: 38px;
+cursor: pointer;
+color: white;
+transition: all 0.5s;
+}
+.footer .search button:hover{
+border-radius: 0px;
+background-color: rgb(85, 85, 85);}
+
+.footer .links{
+margin-top: 8%;
+width: 100%;
+display: flex;
+}
+
+
+.footer .links .imp-links a:hover,.footer .links .community a:hover,.footer .links .more a:hover{
+text-decoration: underline;
+}
+.footer .links .imp-links a,.footer .links .community a,.footer .links .more a{
+text-decoration: none;
+color: rgb(38, 38, 38);
+}
+
+.footer .links .imp-links li,.footer .links .community li,.footer .links .more li{
+padding-left: 15%;
+font-size: 18px;
+font-weight: 400;
+padding-top: 5%;
+font-family: arial;
+}
+.footer .links .imp-links h2,.footer .links .community h2,.footer .links .more h2{
+font-size: 22px;
+padding-left: 15%;
+color: rgb(39, 39, 39);
+margin-bottom: 6%;
+}
+
+.footer .links .imp-links,.footer .links .community,.footer .links .more,.footer .links .downloard{
+width: 25%;
+list-style: none;
+
+}
+
+
+
+/* links downloard apps */
+
+.footer .links .downloard img{
+width: 50%;
+}
+
+
+.footer #hr{
+width: 80%;
+margin-top: 3%;
+height: 3px;
+background-color: rgb(80, 80, 80);
+margin-left: 10%;
+}
+
+.footer .copyright{
+width: 100%;
+display: flex;
+height: auto;
+}
+.footer .copyright .left{
+width: 40%;
+font-size: 20px;
+padding-top: 5%;
+padding-left: 10%;
+}
+.footer .copyright .right{
+width: 60%;
+margin-right: 10%;
+list-style: none;
+}
+
+.footer .copyright .right li{
+margin-left: 3%;
+display: inline-block;
+width: auto;
+padding: 0% 1% 1% 1%;
+text-align: center;
+margin-top: 8%;
+float: right;
+transition: all 0.2s;
+
+border-radius: 60px;
+background-color: rgb(39, 39, 39);
+padding-top: 1%;
+}
+.footer .copyright .right li:hover{
+transform: rotate(330deg);
+}
+.footer .copyright .right li a{
+text-decoration: none;
+color: white;
+
+}
+
+.footer .copyright .right li a i{
+font-size: 22px;
+}
+
+#menu,#close{
+display: none;
+}
+
+
+
+/* media query */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width:0px) and (max-width:600px)  {
+
+ .topHeader{
+ z-index: 99;
+height: auto;
+display: block;
+box-shadow: 0px 2px 8px 8px rgb(232, 232, 232) ;
+border-bottom: 1px solid rgb(111, 111, 111);
+}
+ .topHeader .section{display: flex;
+ width: auto;
+ }
+
+
+ .topHeader .section .ham{
+text-align: center;
+  position: relative;
+  height: auto;
+  width: 20%;
+  display: block;
+  }
+
+
+
+ .topHeader .section .ham #menu,#close{
+
+cursor: pointer;
+font-size: 8vw;
+color: rgb(248, 164, 9);
+margin-top: 20%;
+display: block;
+transition: all 0.4s;
+
+}
+ 
+ .topHeader .section .ham #close{
+display: none;
+transition: all 0.4s;
+
+}
+
+.topHeader .logo-section{
+height: auto;
+padding-top: 1%;
+padding-left: 3%;
+margin-bottom: 0%;
+width: 80%;
+display: block;
+margin-left: 0%;
+overflow: auto;
+}
+.topHeader .logo-section img{
+height: 15vw;
+}
+
+.topHeader .links{
+border: 1px solid black;
+margin-right: 0%;
+height: auto;
+width: 100%;
+margin-left: 0%;
+text-align: center;
+display: block;
+display: none;
+transition: all 0.4s;
+
+}
+
+.topHeader #links{
+border: 1px solid black;
+margin-right: 0%;
+height: auto;
+width: 100%;
+margin-left: 0%;
+user-select: none;
+text-align: center;
+display: block;
+display: none;
+transition: all 0.4s;
+}
+.topHeader .links li{
+font-size: 6vw;
+width: 100%;
+margin-top: 2%;
+margin-bottom: 2%;
+margin-left: 0%;
+line-height: normal;
+}
+
+.topHeader #apply-btn{
+display: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+
+
+/* banner */
+.banner{
+height: auto;
+display: block;
+
+}
+
+/* banner left sectiob */
+.banner .left-section{
+width: 100%;
+}
+
+
+
+.banner .left-section h1{
+color: rgb(56, 56, 56);
+font-size: 5vw;
+margin-top: 0%;
+margin-left: 2%;
+}
+.banner .left-section h1:before {
+    
+    height: 1vw;
+}
+
+
+/* h2 */
+.banner .left-section h2{
+margin-left: 3%;
+margin-top: 6%;
+width: 80%;
+font-size: 6vw;
+}
+.banner .left-section h3{
+margin-left: 3%;
+margin-top: 3%;
+width: 90%;
+font-size: 4.5vw;
+
+}
+
+
+.banner .left-section #join-btn{
+margin-top: 1%;
+margin-left: 3%;
+margin-top: 3%;
+padding:2%;
+font-size: 4vw;
+height: auto;
+}
+
+
+.banner .left-section #explore-btn{
+margin-top: 1%;
+margin-left: 3%;
+margin-top: 3%;
+padding:2%;
+font-size: 4vw;
+height: auto;}
+
+/* banner right section */
+.banner .right-section{
+
+width: 100%;
+
+}
+
+
+
+/* trust */
+.trust{
+height: auto;
+overflow: auto;
+}
+
+.trust h1{
+padding-top: 5%;
+padding-bottom: 2%;
+font-size: 5vw;
+}
+
+.trust li {
+width: auto;
+margin-top: 2%;
+margin-left: 5%;
+margin-right: 0%;
+margin-bottom: 2%;
+display: inline-block;
+}
+
+.trust li img{
+height: 6vw;
+}
+
+
+/* more more-details */
+.more-details{
+margin-top: 5%;
+height: auto;
+margin-bottom: 3%;
+}
+.more-details .card{
+width: 40%;
+float: left;
+margin-bottom: 5%;
+margin-left: 8%;
+overflow: auto;
+}
+.more-details .card .img{width: 100%;}
+.more-details .card .img img{width: 100%;}
+.more-details .card p{
+width: 100%;
+font-size: 3vw;
+padding-bottom: 2%;
+}
+.more-details .card h1{
+font-size: 5vw;
+
+}
+
+.courses{
+clear: both;
+
+height: auto;
+
+}
+.courses h1{
+padding-top: 5%;
+font-size: 6vw;
+padding-bottom: 2%;
+padding-left: 3%;
+}
+.courses .course{
+width: 94%;
+margin-top: 4%;
+float: none;
+margin-left: 3%;
+height: auto;
+display: flex;
+}
+
+
+.courses .course .detail h1{
+font-size: 4vw;
+}
+.courses .course .detail p{
+font-size: 3.5vw;
+padding-left: 3%;
+padding-top: 1%;
+margin-bottom: 2%;
+}
+ 
+.courses .course:hover{
+box-shadow: 0px 2px 7px 5px rgb(84, 83, 83);
+
+}
+
+/* teachers */
+.teachers{
+width: 100%;
+margin-top: 12%;
+height: auto;
+margin-bottom: 3%;
+}
+
+.teachers h1{
+margin-top: 5%;
+padding-left: 4%;
+font-size: 5vw;
+margin-bottom: 3%;
+}
+.teachers h1:before,.teachers h1::after {
+   
+    height: 1vw;
+   
+}
+
+
+.teachers .card{
+width: 46%;
+margin-top: 3%;
+margin-left: 3%;
+height: auto;
+overflow: auto;
+}
+.teachers .card .profile1 img,.teachers .card .profile2 img{
+height: 100%;}
+
+.teachers .card .profile1{
+height: 40vw;
+
+}
+.teachers .card .profile2{
+height: 40vw;
+}
+.teachers .card p{
+padding-top: 1%;
+font-size: 3.5vw;
+}
+.teachers .card h2{
+padding-top: 4%;
+font-size: 4vw;
+}
+.teachers h4{
+width: 100%;
+padding-top: 4%;
+padding-bottom: 3%;
+font-size: 5vw;
+}
+
+.awards{
+width: 100%;
+height: auto;
+text-align: center;
+
+display: block;
+}
+
+.awards .img-section{
+width: 100%;
+margin-top: 0%;
+}
+.awards .img-section img{
+height: 50vw;
+margin-top: 2%;
+}
+.awards .texts{
+width: 100%;
+}
+
+.awards .texts h1{
+width: 100%;
+padding-top: 4%;
+font-size: 6vw;
+}
+.awards .texts p{
+width: 94%;
+text-align: center;
+font-size: 4.5vw;
+padding-top: 2%;
+}
+
+
+.awards .texts #explore{
+margin-top: 3%;
+padding: 2%;
+font-size: 4.4vw;
+height: auto;
+margin-bottom: 6%;
+}
+
+
+
+
+
+/* footer */
+.footer{
+height: auto;
+}
+
+.footer h1{
+width: 100%;
+margin-left: 0%;
+font-size: 6vw;
+padding-top: 8%;
+
+}
+
+.footer .search{
+width: 100%;
+margin-top: 10%;
+margin-left: 0%;
+display: flex;
+}
+.footer .search input{
+width: 78%;
+margin-left: 3%;
+outline: none;
+border: none;
+font-size: 4vw;
+padding-left: 3%;
+padding: 4%;
+border-radius: 10px;
+height: auto;
+}
+
+.footer .search button{
+width: auto;
+margin-top: 0;
+margin-left: 1%;
+margin-top: 0%;
+padding:3%;
+font-size: 4vw;
+height: auto;
+}
+
+.footer .links{
+margin-top: 8%;
+}
+
+
+
+.footer .links .imp-links a:hover,.footer .links .community a:hover,.footer .links .more a:hover{
+font-size: 3vw;
+}
+
+.footer .links .imp-links li,.footer .links .community li,.footer .links .more li{
+padding-left: 21%;
+font-size: 4vw;
+text-align: center;
+padding-top: 3%;
+}
+.footer .links .imp-links h2,.footer .links .community h2,.footer .links .more h2{
+font-size: 4vw;
+padding-left: 21%;
+
+text-align: center;
+}
+
+.footer .links .imp-links,.footer .links .community,.footer .links .more,.footer .links .downloard{
+width: 25%;
+
+}
+
+
+
+/* links downloard apps */
+
+.footer .links .downloard img{
+width: 90%;
+padding-left: 21%;
+
+}
+
+
+.footer #hr{
+width: 100%;
+margin-top: 7%;
+margin-left: 0;
+height: 0.4vh;
+}
+
+
+.footer .copyright{
+display: block;
+text-align: center;
+
+}
+.footer .copyright .left{
+width: 100%;
+font-size: 4.5vw;
+padding-top: 5%;
+padding-left: 0%;
+}
+.footer .copyright .right{
+width: 100%;
+margin-right: 0%;
+display: flex;
+list-style: none;
+justify-content: center;
+}
+
+
+.footer .copyright .right li{
+margin-left: 3%;
+display: inline-block;
+width: auto;
+padding: 0% 1% 1% 1%;
+text-align: center;
+margin-top: 8%;
+float: right;
+transition: all 0.2s;
+border-radius: 60px;
+background-color: rgb(39, 39, 39);
+padding-top: 1%;
+}
+
+
+
+.footer .copyright .right li a i{
+font-size: 5vw;
+}
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width:601px) and (max-width:1250px)  {
+
+ .topHeader{
+ z-index: 99;
+height: auto;
+
+display: block;
+box-shadow: 0px 2px 8px 8px rgb(232, 232, 232) ;
+border-bottom: 1px solid rgb(111, 111, 111);
+}
+
+ .topHeader .section{display: flex;
+ width: auto;
+ }
+
+
+ .topHeader .section .ham{
+text-align: center;
+  position: relative;
+  height: auto;
+  width: 20%;
+  display: block;
+  }
+
+
+ .topHeader .section .ham #menu,#close{
+
+cursor: pointer;
+font-size: 8vw;
+color: rgb(248, 164, 9);
+margin-top: 20%;
+display: block;
+transition: all 0.4s;
+
+}
+ 
+ .topHeader .section .ham #close{
+display: none;
+transition: all 0.4s;
+
+}
+
+.topHeader .logo-section{
+height: auto;
+padding-top: 1%;
+padding-left: 3%;
+margin-bottom: 0%;
+width: 80%;
+display: block;
+margin-left: 0%;
+overflow: auto;
+}
+.topHeader .logo-section img{
+height: 15vw;
+}
+
+.topHeader .links{
+border: 1px solid black;
+margin-right: 0%;
+height: auto;
+width: 100%;
+margin-left: 0%;
+text-align: center;
+display: block;
+display: none;
+transition: all 0.4s;
+
+}
+
+.topHeader #links{
+border: 1px solid black;
+margin-right: 0%;
+height: auto;
+width: 100%;
+margin-left: 0%;
+user-select: none;
+text-align: center;
+display: block;
+display: none;
+transition: all 0.4s;
+}
+.topHeader .links li{
+font-size: 6vw;
+width: 100%;
+margin-top: 2%;
+margin-bottom: 2%;
+margin-left: 0%;
+line-height: normal;
+}
+
+.topHeader #apply-btn{
+display: none;
+}
+
+
+
+#menu,#close{
+top: 0%;
+right: 5%;
+cursor: pointer;
+font-size: 8vw;
+color: rgb(248, 164, 9);
+position: absolute;
+display: block;
+transition: all 0.4s;
+
+}
+#close{
+display: none;
+transition: all 0.4s;
+
+}
+
+/* banner */
+.banner{
+height: auto;
+display: block;
+
+}
+
+/* banner left sectiob */
+.banner .left-section{
+width: 100%;
+}
+
+
+
+.banner .left-section h1{
+color: rgb(56, 56, 56);
+font-size: 5vw;
+margin-top: 0%;
+margin-left: 2%;
+}
+.banner .left-section h1:before {
+    
+    height: 1vw;
+}
+
+
+/* h2 */
+.banner .left-section h2{
+margin-left: 3%;
+margin-top: 6%;
+width: 80%;
+font-size: 6vw;
+}
+.banner .left-section h3{
+margin-left: 3%;
+margin-top: 3%;
+width: 90%;
+font-size: 4.5vw;
+
+}
+
+
+.banner .left-section #join-btn{
+margin-top: 1%;
+margin-left: 3%;
+margin-top: 3%;
+padding:2%;
+font-size: 4vw;
+height: auto;
+}
+
+
+.banner .left-section #explore-btn{
+margin-top: 1%;
+margin-left: 3%;
+margin-top: 3%;
+padding:2%;
+font-size: 4vw;
+height: auto;}
+
+/* banner right section */
+.banner .right-section{
+
+width: 100%;
+
+}
+
+
+
+/* trust */
+.trust{
+height: auto;
+overflow: auto;
+}
+
+.trust h1{
+padding-top: 5%;
+padding-bottom: 2%;
+font-size: 5vw;
+}
+
+.trust li {
+width: auto;
+margin-top: 2%;
+margin-left: 5%;
+margin-right: 0%;
+margin-bottom: 2%;
+display: inline-block;
+}
+
+.trust li img{
+height: 6vw;
+}
+
+
+/* more more-details */
+.more-details{
+margin-top: 5%;
+height: auto;
+margin-bottom: 3%;
+}
+.more-details .card{
+width: 40%;
+float: left;
+margin-bottom: 5%;
+margin-left: 8%;
+overflow: auto;
+}
+.more-details .card .img{width: 100%;}
+.more-details .card .img img{width: 100%;}
+.more-details .card p{
+width: 100%;
+font-size: 3vw;
+padding-bottom: 2%;
+}
+.more-details .card h1{
+font-size: 5vw;
+
+}
+
+.courses{
+clear: both;
+
+height: auto;
+
+}
+.courses h1{
+padding-top: 5%;
+font-size: 6vw;
+padding-bottom: 2%;
+padding-left: 3%;
+}
+.courses .course{
+width: 94%;
+margin-top: 4%;
+float: none;
+margin-left: 3%;
+height: auto;
+display: flex;
+}
+
+
+.courses .course .detail h1{
+font-size: 4vw;
+}
+.courses .course .detail p{
+font-size: 3.5vw;
+padding-left: 3%;
+padding-top: 1%;
+margin-bottom: 2%;
+}
+ 
+.courses .course:hover{
+box-shadow: 0px 2px 7px 5px rgb(84, 83, 83);
+
+}
+
+/* teachers */
+.teachers{
+width: 100%;
+margin-top: 12%;
+height: auto;
+margin-bottom: 3%;
+}
+
+.teachers h1{
+margin-top: 5%;
+padding-left: 4%;
+font-size: 5vw;
+margin-bottom: 3%;
+}
+.teachers h1:before,.teachers h1::after {
+   
+    height: 1vw;
+   
+}
+
+
+.teachers .card{
+width: 46%;
+margin-top: 3%;
+margin-left: 3%;
+height: auto;
+overflow: auto;
+}
+.teachers .card .profile1 img,.teachers .card .profile2 img{
+height: 100%;}
+
+.teachers .card .profile1{
+height: 40vw;
+
+}
+.teachers .card .profile2{
+height: 40vw;
+}
+.teachers .card p{
+padding-top: 1%;
+font-size: 3.5vw;
+}
+.teachers .card h2{
+padding-top: 4%;
+font-size: 4vw;
+}
+.teachers h4{
+width: 100%;
+padding-top: 4%;
+padding-bottom: 3%;
+font-size: 5vw;
+}
+
+.awards{
+width: 100%;
+height: auto;
+text-align: center;
+
+display: block;
+}
+
+.awards .img-section{
+width: 100%;
+margin-top: 0%;
+}
+.awards .img-section img{
+height: 50vw;
+margin-top: 2%;
+}
+.awards .texts{
+width: 100%;
+}
+
+.awards .texts h1{
+width: 100%;
+padding-top: 4%;
+font-size: 6vw;
+}
+.awards .texts p{
+width: 94%;
+text-align: center;
+font-size: 4.5vw;
+padding-top: 2%;
+}
+
+
+.awards .texts #explore{
+margin-top: 3%;
+padding: 2%;
+font-size: 4.4vw;
+height: auto;
+margin-bottom: 6%;
+}
+
+
+
+
+
+/* footer */
+.footer{
+height: auto;
+}
+
+.footer h1{
+width: 100%;
+margin-left: 0%;
+font-size: 6vw;
+padding-top: 8%;
+
+}
+
+.footer .search{
+width: 100%;
+margin-top: 10%;
+margin-left: 0%;
+display: flex;
+}
+.footer .search input{
+width: 78%;
+margin-left: 3%;
+outline: none;
+border: none;
+font-size: 4vw;
+padding-left: 3%;
+padding: 4%;
+border-radius: 10px;
+height: auto;
+}
+
+.footer .search button{
+width: auto;
+margin-top: 0;
+margin-left: 1%;
+margin-top: 0%;
+padding:3%;
+font-size: 4vw;
+height: auto;
+}
+
+.footer .links{
+margin-top: 8%;
+}
+
+
+
+.footer .links .imp-links a:hover,.footer .links .community a:hover,.footer .links .more a:hover{
+font-size: 3vw;
+}
+
+.footer .links .imp-links li,.footer .links .community li,.footer .links .more li{
+padding-left: 21%;
+font-size: 4vw;
+text-align: center;
+padding-top: 3%;
+}
+.footer .links .imp-links h2,.footer .links .community h2,.footer .links .more h2{
+font-size: 4vw;
+padding-left: 21%;
+
+text-align: center;
+}
+
+.footer .links .imp-links,.footer .links .community,.footer .links .more,.footer .links .downloard{
+width: 25%;
+
+}
+
+
+
+/* links downloard apps */
+
+.footer .links .downloard img{
+width: 90%;
+padding-left: 21%;
+
+}
+
+
+.footer #hr{
+width: 100%;
+margin-top: 7%;
+margin-left: 0;
+height: 0.4vh;
+}
+
+
+.footer .copyright{
+display: block;
+text-align: center;
+
+}
+.footer .copyright .left{
+width: 100%;
+font-size: 4.5vw;
+padding-top: 5%;
+padding-left: 0%;
+}
+.footer .copyright .right{
+width: 100%;
+margin-right: 0%;
+display: flex;
+list-style: none;
+justify-content: center;
+}
+.footer .copyright .right li{
+margin-left: 5%;
+
+
+padding: 0% 3% 3% 3%;
+
+
+margin-bottom: 10%;
+border-radius: 60%;
+padding-top: 3%;
+}
+
+
+
+.footer .copyright .right li a i{
+font-size: 5vw;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width:1251px) and (max-width:1899px) { 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+/* top header */
+.topHeader{
+width: 100%;
+z-index: 99;
+background-color: #fff;
+height: auto;
+display: flex;
+}
+
+ .topHeader .section{display: inline-block;
+ width: 15%;}
+
+
+ .topHeader .section .ham{
+display: none;
+  }
+.topHeader .logo-section{
+width: auto;
+height: auto;
+margin-left: 31%;
+padding-left: 0%;
+overflow: hidden;
+}
+.topHeader .logo-section img{
+width: auto;
+height: 60px;
+}
+
+
+.topHeader .links{
+margin-right: 4%;
+height: 60px;
+margin-left: 42%;
+justify-content: center;
+list-style: none;
+display: flex;
+}
+
+.topHeader .links li{
+font-size: 22px;
+margin-left: 12%;
+width: auto;
+line-height: 60px;
+}
+.topHeader .links li a{
+color: rgb(21, 21, 21);
+text-decoration: none;
+transition: all 0.4s;
+}
+.topHeader .links li a:hover{
+color: rgba(0, 0, 120, 0.673);
+}
+
+
+.topHeader #apply-btn{
+width: auto;
+margin-top: 10px;
+margin-left: 5%;
+padding: 0px 25px 0px 25px;
+font-size: 18px;
+border: none;
+border-radius: 3px;
+background-color: rgb(246 148 30);
+height: 40px;
+cursor: pointer;
+color: white;
+transition: all 0.5s;
+}
+.topHeader #apply-btn:hover{
+border-radius: 30px;
+background-color: rgb(85, 85, 85);
+}
+
+
+
+
+/* banner */
+.banner{
+user-select: none;
+width: 100%;
+height: 560px;
+display: flex;
+padding-top: 30px;
+background-color:rgb(249, 249, 249);
+}
+
+/* banner left sectiob */
+.banner .left-section{
+width: 50%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+.banner .left-section h1{
+color: rgb(56, 56, 56);
+font-size: 18px;
+font-family: 'Roboto Slab', serif;
+margin-top: 14%;
+margin-left: 3%;
+}
+.banner .left-section h1:before {
+    background-color: rgb(253, 5, 5);
+    content: "";
+    display: inline-block;
+    height: 4px;
+    position: relative;
+    vertical-align: middle;
+    width: 5%;
+}
+.banner .left-section h1:before {
+    right: 0.5em;
+    margin-left: 5%;
+}
+
+/* h2 */
+.banner .left-section h2{
+margin-left: 5%;
+margin-top: 3%;
+width: 60%;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+}
+.banner .left-section h2 #title{color: red;}
+.banner .left-section h3{
+margin-left: 5%;
+font-weight: 350;
+margin-top: 1%;
+width: 80%;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 20px;
+
+}
+
+
+.banner .left-section #join-btn{
+width: auto;
+margin-top: 10px;
+margin-left: 5%;
+margin-top: 3%;
+padding: 0px 25px 0px 25px;
+font-size: 18px;
+border: none;
+border-radius: 3px;
+background-color: rgb(246 148 30);
+height: 40px;
+cursor: pointer;
+color: white;
+transition: all 0.5s;
+}
+.banner .left-section #join-btn:hover{
+border-radius: 0px;
+background-color: rgb(85, 85, 85);}
+
+
+
+.banner .left-section #explore-btn{width: auto;
+margin-top: 10px;
+margin-left: 5%;
+margin-top: 3%;
+padding: 0px 25px 0px 25px;
+font-size: 18px;
+border: none;
+border-radius: 3px;
+background-color: rgb(226, 70, 62);
+height: 40px;
+cursor: pointer;
+color: white;
+transition: all 0.5s;}
+.banner .left-section #explore-btn:hover{
+border-radius: 0px;
+background-color: rgb(26, 26, 26);}
+
+/* banner right section */
+.banner .right-section{
+width: 50%;
+
+}
+.banner .right-section img{
+margin-left: 10%;
+width: 90%;
+margin-top: 5%;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+/* trust */
+.trust{
+width: 100%;
+height: 230px;
+overflow: hidden;
+
+background-color:rgb(255, 255, 255);
+list-style: none;
+
+}
+
+.trust h1{
+
+padding-top: 3%;
+padding-bottom: 1%;
+font-family: 'Titillium Web', sans-serif;
+font-size: 26px;
+color: rgb(34, 34, 34);
+text-align: center;
+}
+
+.trust li {
+width: 48px;
+margin-top: 3%;
+margin-left: 2.3%;
+margin-right: 2%;
+display: inline-block;
+}
+
+.trust li img{
+width: auto;
+height: 30px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+/* more more-details */
+.more-details{
+width: 100%;
+height: 400px;
+margin-bottom: 5%;
+background-color: #fff;
+}
+.more-details .card{
+width: 350px;
+float: left;
+margin-left: 5.5%;
+user-select: none;
+height: auto;
+
+overflow: hidden;
+}
+.more-details .card .img{width: 100%;}
+.more-details .card .img img{width: 100%;}
+.more-details .card p{
+width: 92%;
+font-size: 16px;
+padding-bottom: 2%;
+color: #5d5d5d;
+font-family: 'Signika Negative', sans-serif;
+}
+.more-details .card h1{
+font-size: 24px;
+font-weight: 500;
+margin-top: 2%;
+color: #454545;
+font-family: 'Karla', sans-serif;
+margin-bottom: 2%;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+/* courses */
+.courses{
+width: 100%;
+height: 700px;
+background-color:rgb(249, 249, 249);
+
+}
+.courses h1{
+padding-top: 5%;
+font-family: 'Titillium Web', sans-serif;
+font-size: 28px;
+padding-left: 4%;
+}
+.courses .course{
+width: 400px;
+transition: all 0.3s;
+cursor: pointer;
+user-select: none;
+margin-top: 2%;
+float: left;
+margin-left: 2%;
+height: 100px;
+display: flex;
+box-shadow: 0px 2px 11px 5px rgb(185, 185, 185);
+overflow: hidden;
+}
+.courses .course .img{
+width: 30%;
+
+}
+.courses .course .img img{
+width: 100%;
+height: 100%;
+} 
+.courses .course .detail{
+width: 70%;
+}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@200&display=swap');
+.courses .course .detail h1{font-size: 20px;
+font-family: 'IBM Plex Serif', serif;}
+
+.courses .course .detail p{font-size: 17px;
+padding-left: 5%;
+color: rgb(110, 110, 110);
+padding-top: 4%;
+font-family: 'IBM Plex Serif', serif;
+font-weight: 400;
+}
+ 
+.courses .course:hover{
+box-shadow: 0px 2px 12px 5px rgb(84, 83, 83);
+
+}
+
+/* teachers */
+.teachers{
+clear: both;
+width: 100%;
+height: auto;
+margin-bottom: 3%;
+background-color: #fff;
+}
+.teachers h1{
+margin-top: 5%;
+padding-left: 4%;
+font-size: 30px;
+font-family: 'Titillium Web', sans-serif;
+}
+.teachers h1:before,.teachers h1::after {
+    background-color: rgb(253, 5, 5);
+    content: "";
+    display: inline-block;
+    height: 4px;
+    position: relative;
+    vertical-align: middle;
+    width: 5%;
+}
+.teachers h1:before {
+    right: 0.5em;
+    margin-left: 5%;
+}
+.teachers h1:before,.teachers h1::after  {
+    right: 0.5em;
+    margin-left: 3%;
+}
+.teachers .card{
+width: 270px;
+margin-top: 3%;
+margin-left: 3%;
+height: auto;
+float: left;
+overflow: hidden;
+}
+.teachers .card .profile1 img,.teachers .card .profile2 img{
+height: 100%;}
+
+.teachers .card .profile2{
+height: 300px;
+background-color: rgb(204, 204, 204);
+text-align: center;
+}
+.teachers .card .profile1{
+background-color: #ffbde6;
+text-align: center;
+height: 300px;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+.teachers .card p{
+padding-top: 1%;
+font-size: 20px;
+font-family: 'Nanum Myeongjo', serif;
+text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+.teachers .card h2{
+text-align: center;
+padding-top: 4%;
+font-size: 25px;
+font-family: 'Roboto Condensed', sans-serif;
+}
+.teachers h4 #total{color: red;}
+.teachers h4{
+clear: both;
+width: 100%;
+padding-top: 4%;
+padding-bottom: 3%;
+font-size: 30px;
+text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+/* awards and certificates */
+.awards{
+width: 100%;
+background-color:rgb(249, 249, 249);
+height: 500px;
+display: flex;
+}
+.awards .img-section{
+width: 50%;
+margin-top: 4%;
+}
+.awards .texts{
+width: 50%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+.awards .texts h1{
+width: 55%;
+padding-top: 10%;
+font-size: 35px;
+font-family: 'Roboto Slab', serif;
+}
+.awards .texts p{
+width: 80%;
+font-size: 20px;
+font-family: 'Roboto Slab', serif;
+padding-top: 3%;
+}
+
+
+.awards .texts #explore{width: auto;
+
+margin-top: 6%;
+padding: 0px 25px 0px 25px;
+font-size: 18px;
+border: none;
+border-radius: 3px;
+background-color: rgb(226, 70, 62);
+height: 40px;
+cursor: pointer;
+color: white;
+transition: all 0.5s;}
+
+.awards .texts #explore:hover{
+border-radius: 0px;
+background-color: rgb(26, 26, 26);}
+
+
+/* footer */
+.footer{
+width: 100%;
+height: 1000px;
+background-color: #fff;
+}
+
+.footer h1{
+width: 45%;
+margin-left: 30%;
+color: rgb(21, 21, 21);
+font-size: 30px;
+padding-top: 5%;
+text-align: center;
+font-family: 'Titillium Web', sans-serif;
+
+}
+
+.footer .search{
+width: 60%;
+margin-top: 2%;
+margin-left: 15%;
+}
+.footer .search input{
+width: 60%;
+margin-left: 26%;
+outline: none;
+border: none;
+font-size: 16px;
+color: rgb(226, 76, 76);
+padding-left: 3%;
+background-color: rgb(244, 244, 244);
+border-radius: 10px;
+height: 40px;
+}
+
+/* REMOVE X BUTTON FROM SEARCH BAR */
+.footer .search input[type="search"]::-webkit-search-decoration,
+.footer .search input[type="search"]::-webkit-search-cancel-button,
+.footer .search input[type="search"]::-webkit-search-results-button,
+.footer .search input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance:none;
+}
+.footer .search button{
+width: auto;
+margin-top: 10px;
+margin-left: 1%;
+margin-top: 3%;
+padding: 0px 25px 0px 25px;
+font-size: 18px;
+border: none;
+border-radius: 3px;
+background-color: rgb(246 148 30);
+height: 38px;
+cursor: pointer;
+color: white;
+transition: all 0.5s;
+}
+.footer .search button:hover{
+border-radius: 0px;
+background-color: rgb(85, 85, 85);}
+
+.footer .links{
+margin-top: 8%;
+width: 100%;
+display: flex;
+}
+
+
+.footer .links .imp-links a:hover,.footer .links .community a:hover,.footer .links .more a:hover{
+text-decoration: underline;
+}
+.footer .links .imp-links a,.footer .links .community a,.footer .links .more a{
+text-decoration: none;
+color: rgb(38, 38, 38);
+}
+
+.footer .links .imp-links li,.footer .links .community li,.footer .links .more li{
+padding-left: 15%;
+font-size: 18px;
+font-weight: 400;
+padding-top: 5%;
+font-family: arial;
+}
+.footer .links .imp-links h2,.footer .links .community h2,.footer .links .more h2{
+font-size: 22px;
+padding-left: 15%;
+color: rgb(39, 39, 39);
+margin-bottom: 6%;
+}
+
+.footer .links .imp-links,.footer .links .community,.footer .links .more,.footer .links .downloard{
+width: 25%;
+list-style: none;
+
+}
+
+
+
+/* links downloard apps */
+
+.footer .links .downloard img{
+width: 50%;
+}
+
+
+.footer #hr{
+width: 80%;
+margin-top: 3%;
+height: 3px;
+background-color: rgb(80, 80, 80);
+margin-left: 10%;
+}
+
+.footer .copyright{
+width: 100%;
+display: flex;
+height: auto;
+}
+.footer .copyright .left{
+width: 40%;
+font-size: 20px;
+padding-top: 5%;
+padding-left: 10%;
+}
+.footer .copyright .right{
+width: 60%;
+margin-right: 10%;
+list-style: none;
+}
+
+.footer .copyright .right li{
+margin-left: 3%;
+display: inline-block;
+width: auto;
+padding: 0% 1% 1% 1%;
+text-align: center;
+margin-top: 8%;
+float: right;
+transition: all 0.2s;
+
+border-radius: 60px;
+background-color: rgb(39, 39, 39);
+padding-top: 1%;
+}
+.footer .copyright .right li:hover{
+transform: rotate(330deg);
+}
+.footer .copyright .right li a{
+text-decoration: none;
+color: white;
+
+}
+
+.footer .copyright .right li a i{
+font-size: 22px;
+}
+
+#menu,#close{
+display: none;
+}
+}
