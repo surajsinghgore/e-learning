@@ -1083,6 +1083,8 @@ justify-content: center;
 .footer .copyright .right li{
 margin-left: 3%;
 display: inline-block;
+margin-bottom: 10%;
+
 width: auto;
 padding: 0% 1% 1% 1%;
 text-align: center;
